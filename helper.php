@@ -40,7 +40,7 @@
              $rows =  mysql_num_rows($res);
              $data =  mysql_fetch_array($res);
             if($rows  ==  0){
-                $new_code  = 0;
+                $new_code  = 1;
             }else{
                $code =  $data[0];
                $new_code = $code+1;
