@@ -15,6 +15,22 @@
 
         }
 
+        function get_user_table_with_num(){
+          console.log("id ayi hai");
+           
+           $.ajax({
+              type: "POST",
+              url: "table.php",
+              data: { "all_data_with_num": "true"},
+              success: function(data){
+                $("#google").html(data);
+              }
+              
+
+           });
+
+        }
+
         function get_names_table(){
           console.log("name wala table");
            
@@ -30,4 +46,6 @@
            });
 
         }
+
+        
 

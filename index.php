@@ -93,20 +93,33 @@
         ?>
         <br>
         <button onclick="get_user_table()" class="btn btn-default">Refresh TABLE</button>
-        <h1>Users Table</h1>
-        <table id="giggle" class="table table-striped">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Users Table With Names</h1>
+         <table id="giggle" class="table table-striped">
 
         </table>
+            </div>
+            <div class="col-md-6">
+                <h1>Users Table With Numbers</h1>
+         <table id="google" class="table table-striped">
+         </table>
+            </div>
+        </div>
+        
+        <div>
         <h1>Names Table</h1>
         <table id="giggle1" class="table table-striped">
-
+        
         </table>
+        </div>
         </div>
           <!-- Page Content -->
     <script src="scripts/jquery.js"></script>
     <script type="text/javascript">
            get_user_table();
            get_names_table();
+           get_user_table_with_num();
     </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="scripts/bootstrap.min.js"></script>
