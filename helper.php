@@ -70,13 +70,13 @@ function warning($error){
 function success($msg){
                              echo '<div style="padding-top :10px;" class="alert alert-success fade in">
                             <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-                            <strong>Congratulations!</strong> '.$msg.'.
+                            <strong>Found!</strong> '.$msg.'.
                             </div>';
 }
 function primary($msg){
                              echo '<div style="padding-top :10px;" class="alert alert-success fade in">
                             <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-                            <strong>Congratulations!</strong> '.$msg.'.
+                            <strong>Found!</strong> '.$msg.'.
                             </div>';
 }
 

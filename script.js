@@ -1,6 +1,5 @@
 
           function get_user_table(){
-          console.log("id ayi hai");
            
            $.ajax({
               type: "POST",
@@ -16,7 +15,6 @@
         }
 
         function get_user_table_with_num(){
-          console.log("id ayi hai");
            
            $.ajax({
               type: "POST",
@@ -32,7 +30,6 @@
         }
 
         function get_names_table(){
-          console.log("name wala table");
            
            $.ajax({
               type: "POST",
